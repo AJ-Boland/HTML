@@ -6,14 +6,17 @@
         
       //document.getElementsByClassName("InfoArea")[0].style.display = 'none';
       var larry = document.getElementsByClassName(name)
+      var x = 0 //counter
       for (var i of larry){
-        alert(z);
-        if (i == z){
+        
+        
+        if (x == z){
           
-          larry[i].style.display = ''
+          i.style.display = ''
         }else{
-          larry[i].style.display = 'none'
+          i.style.display = 'none'
         }
+        x += 1
         
       }
       
