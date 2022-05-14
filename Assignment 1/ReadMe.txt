@@ -1,0 +1,2 @@
+Hi! A webapp I would like to have is a interacting program for creating circuits. Have a button for a input node that can be toggled on and off, wires, and a NAnd gate. 
+Perhaps a way to save creations, but that may be a stretch
