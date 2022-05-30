@@ -1,0 +1,19 @@
+class attribute, ez done
+class selector, maybe, ez done
+id attribute, ez, done
+id selector, maybe, ez done I think
+role attribute, ??, still dont know
+attribute selectors, ??, nope
+font family, what, got it!
+font size, okay
+font style, okay
+font variant, shmaybe, done
+font weight, what now?, done
+font property shorthand, wtf?, done i think
+text align, ez. done
+text decoration, like in general or what? , done
+line height, ummm...., done
+color (in a few ways), cool , fun done
+border and shorthand, shorthand?, done
+padding and shorthand, again, done
+margin and shorthand again
