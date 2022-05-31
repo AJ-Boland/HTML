@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="Utf-8">
+    <meta name="Name for meta item" content="data for item">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+    img.imagesClass{
+        display:block;
+        border: 2px solid brown;
+        height: auto;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+           
+    }
+    th{
+        text-align: center;
+        text-decoration-color: gold;
+        text-decoration-line: underline;
+        font: inherit;
+        background-color: beige;
+        
+    }
+    td{
+        width: 20%;
+        align-content: center;
+        font: inherit;
+        text-align: center;
+        background-color: lightgreen;
+    }
+    table{
+        display: inline-table;
+        align-items: center;
+        align-content: center;
+        border: 10px solid slateblue;
+        font-family:'Courier New', Courier, monospace
+        
+    
+    }
+    h2{
+        text-align: inherit;
+    }
+    #mainHeader{
+        text-align: center;
+        color:lightsalmon;
+    }
+    html{
+       border: 2px solid lime;
+       background-color: aliceblue;
+    }
+    #Video-Text{
+        border: 2px rebeccapurple solid;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant:unicase;
+        font-weight: bolder;
+        padding: 5%;
+        padding-left: 5px;
+        display:flex;
+        line-height: 30px;
+        
+    }
+
+
+    #EpicImageAndTitle{
+        background-image: url(https://assets.reedpopcdn.com/deep-rock-galactic-doubles-player-count-to-10m-1642170978962.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/deep-rock-galactic-doubles-player-count-to-10m-1642170978962.jpg);
+        background-repeat: no-repeat;
+        display:block;
+        overflow: scroll;
+        height: max-content;
+        width:fit-content;
+        text-align: center;
+        margin: auto;
+        min-width: 1600px;
+        min-height: 900px;
+
+    }
+
+
+    #EpicImageAndTitle .containerForClasses{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+
+    #EpicImageAndTitle .classContainer{
+        position: relative;
+        display: inline-block;
+    }
+
+    #EpicImageAndTitle .class{
+        border: 2px dashed black;
+        background-color: yellow;
+
+        display: none;
+        float:left;
+        width: 400px;
+        margin: auto;
+        padding: auto;
+        max-width: 20%;
+
+        text-align: center;
+        
+
+
+    }
+
+
+
+    
+    .dropDownButton{
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    .classContainer:hover .class{display: flex;}
+
+</style>
+
+<body">
+    <!--Main header-->
+    <h1 lang="en" id="mainHeader">Hi! Welcome to my Website!</h1>
+    <p> Here I show off a few things I enjoy in my downtime:</p>
+    <ul> 
+        <li><a href="Assignment_1.html#VideoGames" role="button">Video Games</a></li>
+        <li><a href="#Youtube">Youtube</a></li>
+        <li><a href="#VideoGameWikis">Video game wikis</a></li>
+    </ul>
+
+    <!--Video Game images and Titles-->
+    <h2 id="VideoGames">I play a number of video games, some probably too much.</h2>
+    <div style="display: block;">
+    <table >
+        <tr>
+            <th>League of Legends</th>
+            <th>Minecraft</th>
+            <th>Deep Rock Galactic</th>
+
+        </tr>
+
+        <tr>
+            <td><img class="imagesClass" src="images.jpg" alt="Something went wrong loading this img"></td>
+            <td><img class="imagesClass" src="C:\Users\Cinna_h0st8lf\Desktop\Desktop 2 (1)\Coding Playground\CS162 Fall 2021\Github\HTML\Assignment 1\840_560.jpg" alt="Something went wrong loading this img"></td>
+            <td><img class="imagesClass" src="deep_rock_galactic_rivals.jpg" alt="Something went wrong loading this img"></td>
+        </tr>
+
+
+    </table>
+    </div>
+
+
+    <!--Youtube link!-->
+    <h3 id="Youtube"> Here is some cool stuff I found on youtube!</h3>
+    <div>
+    <p style="float: left;">
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/YNMkADpvO4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>    
+    <p id="Video-Text">
+        
+ 
+        
+            This guy creates awesome videos! SO many cool simulations demonstrating evolution and testing hypothesises with the property of large numbers 
+            
+ 
+    </p>
+    <br> 
+    </div>
+
+    <!--Wiki Area-->
+    <h4 id="VideoGameWikis" style="padding:15px">Wikis!</h4>
+    <h2 style="color: blue; text-shadow: chocolate;text-decoration-style: wavy;">Minecraft!!!</h2>
+    <p>The Minecraft wiki is super helpful. And the information is very interlinked, <br>for example the proffesions table for villagers:</p>
+    <table style="border:3px solid;">
+        <tr>
+            <th>Proffesion</th>
+            <th>Work Station</th>
+            <th>Various Outfit Variations</th>
+        </tr>
+        <tr>
+            <td> <a href="https://minecraft.fandom.com/wiki/Trading#Armorer"> Armorer</a></td>
+            <td> <a href="https://minecraft.fandom.com/wiki/Blast_Furnace"> Blast Furnace</a></td>
+            <td>(images)</td>
+        </tr>
+        <tr>
+            <td> <a href="https://minecraft.fandom.com/wiki/Trading#Butcher"> Butcher</a></td>
+            <td> <a href="https://minecraft.fandom.com/wiki/Smoker"> Smoker</a></td>
+            <td>(images)</td>
+        </tr>
+        <tr>
+            <td> <a href="https://minecraft.fandom.com/wiki/Trading#Cartographer"> Cartographer</a></td>
+            <td> <a href="https://minecraft.fandom.com/wiki/Cartography_Table"> Cartography Table</a></td>
+            <td>(images)</td>
+        </tr>
+        <tr>
+            <td> <a href="https://minecraft.fandom.com/wiki/Trading#Cleric"> Cleric</a></td>
+            <td> <a href="https://minecraft.fandom.com/wiki/Brewing_Stand"> Brewing Stand</a></td>
+            <td>(images)</td>
+        </tr>
+    </table>
+    <p style="margin:auto;margin-left:10%">For reference: <a href="https://minecraft.fandom.com/wiki/Villager#Professions" >Link</a></p>
+
+
+    <!--ugly Button area-->
+    <div style="border: solid 2px red; display:inline; width: min-content;">Super Cool button area, don't look at me :)
+    <a role="button" aria- aria-expanded="false">Expandable
+        
+    </a>
+    <div role="button" aria-expanded="false">Button</div>
+
+    <button> Actual button</button>
+    </div>
+
+    <!--Cool Deep Rock Galactic Area-->
+<div id="EpicImageAndTitle">
+    <h2 style="background-color: silver; margin-top: 0%; margin-bottom: 0%;">More about Deep Rock Galactic!</h2>
+    <p style="text-shadow: 2px 2px white; background-color: black; margin-top: 0%; font-size: large;">There are 4 Roles to play!</p>
+    <!--Main Container-->
+    <div id="containerForClasses">
+        <!--Sub Container for Each Class-->
+        <div class="classContainer">
+        <button class= "dropDownButton"> Gunner </button>
+        <div class="class">
+        LOOK AT ME
+        </div>
+        </div>
+
+        <div class="class">The Engineer</div>
+        <div class="class">The Scout</div>
+        <div class="class">The Driller</div>
+    </containerForClasses>
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
