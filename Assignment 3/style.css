@@ -1,0 +1,164 @@
+
+ 
+img.imagesClass{
+display:block;
+border: 2px solid brown;
+height: auto;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+    
+}
+
+
+th{
+    text-align: center;
+    text-decoration-color: gold;
+    text-decoration-line: underline;
+    font: inherit;
+    background-color: beige;
+    
+}
+td{
+    width: 20%;
+    align-content: center;
+    font: inherit;
+    text-align: center;
+    background-color: lightgreen;
+}
+table{
+    display: inline-table;
+    align-items: center;
+    align-content: center;
+    border: 10px solid slateblue;
+    font-family:'Courier New', Courier, monospace
+    
+
+}
+h2{
+    text-align: inherit;
+}
+
+#mainHeader{
+    text-align: center;
+    color:lightsalmon;
+}
+
+html{
+border: 2px solid lime;
+background-color: aliceblue;
+}
+
+
+#Video-Text{
+    border: 2px rebeccapurple solid;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant:unicase;
+    font-weight: bolder;
+    padding: 5%;
+    padding-left: 5px;
+    display:flex;
+    line-height: 30px;
+    
+}
+
+
+#EpicImageAndTitle{
+    background-image: url(https://assets.reedpopcdn.com/deep-rock-galactic-doubles-player-count-to-10m-1642170978962.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/deep-rock-galactic-doubles-player-count-to-10m-1642170978962.jpg);
+    background-repeat: no-repeat;
+    display:block;
+    overflow: scroll;
+    height: max-content;
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+    min-width: 1600px;
+    min-height: 900px;
+
+
+}
+
+
+.containerForClasses{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+}
+
+.classContainer{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    z-index: 1;
+}
+
+.class{
+    border: 2px dashed black;
+    background-color: yellow;
+
+    display: none;
+
+
+    position:absolute;
+    width: inherit;
+    margin: auto;
+    padding: auto;
+
+    text-align: center;
+    z-index: 1;
+}
+
+.class div{
+    display: block;
+    border: 1px dashed black;
+}
+
+.dropDownButton{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.classContainer:hover .class{display: block;}
+
+
+
+
+
+.mainMenuButton{
+    display: block;
+    position:fixed;
+    width: 3%;
+    height: 3%;
+    line-height: 3px;
+    font-size: larger;
+    z-index: 1;
+    
+}
+
+.mainMenuButton:hover .mainMenu{display:block}
+
+.mainMenuButton:hover .mainMenuButton{display:none}
+
+.mainMenu{
+    display: none;
+    position:fixed;
+    height: 100%;
+    width: 8%;
+    background-color: cadetblue;
+    background-blend-mode:lighten;
+
+    font-size: medium;
+    overflow:scroll;
+    z-index: 2;
+
+
+}
+#Body{
+    margin: 0%;
+    
+}

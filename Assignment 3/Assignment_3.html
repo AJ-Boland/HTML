@@ -2,129 +2,22 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="Utf-8">
     <meta name="Name for meta item" content="data for item">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<style>
-    img.imagesClass{
-        display:block;
-        border: 2px solid brown;
-        height: auto;
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-           
-    }
-    th{
-        text-align: center;
-        text-decoration-color: gold;
-        text-decoration-line: underline;
-        font: inherit;
-        background-color: beige;
-        
-    }
-    td{
-        width: 20%;
-        align-content: center;
-        font: inherit;
-        text-align: center;
-        background-color: lightgreen;
-    }
-    table{
-        display: inline-table;
-        align-items: center;
-        align-content: center;
-        border: 10px solid slateblue;
-        font-family:'Courier New', Courier, monospace
-        
-    
-    }
-    h2{
-        text-align: inherit;
-    }
-    #mainHeader{
-        text-align: center;
-        color:lightsalmon;
-    }
-    html{
-       border: 2px solid lime;
-       background-color: aliceblue;
-    }
-    #Video-Text{
-        border: 2px rebeccapurple solid;
-        font-size: large;
-        font-family: 'Times New Roman', Times, serif;
-        font-variant:unicase;
-        font-weight: bolder;
-        padding: 5%;
-        padding-left: 5px;
-        display:flex;
-        line-height: 30px;
-        
-    }
-
-
-    #EpicImageAndTitle{
-        background-image: url(https://assets.reedpopcdn.com/deep-rock-galactic-doubles-player-count-to-10m-1642170978962.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/deep-rock-galactic-doubles-player-count-to-10m-1642170978962.jpg);
-        background-repeat: no-repeat;
-        display:block;
-        overflow: scroll;
-        height: max-content;
-        width:fit-content;
-        text-align: center;
-        margin: auto;
-        min-width: 1600px;
-        min-height: 900px;
-
-    }
-
-
-    #EpicImageAndTitle .containerForClasses{
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-    }
-
-    #EpicImageAndTitle .classContainer{
-        position: relative;
-        display: inline-block;
-    }
-
-    #EpicImageAndTitle .class{
-        border: 2px dashed black;
-        background-color: yellow;
-
-        display: none;
-        float:left;
-        width: 400px;
-        margin: auto;
-        padding: auto;
-        max-width: 20%;
-
-        text-align: center;
-        
-
-
-    }
 
 
 
-    
-    .dropDownButton{
-        background-color: #04AA6D;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-    }
-    
-    .classContainer:hover .class{display: flex;}
+<body id="Body">
 
-</style>
+    <div class="mainMenuButton">-<br>-<br>-
+    <div class="mainMenu">Hidden Text!</div>
+    </div>
 
-<body">
+
     <!--Main header-->
     <h1 lang="en" id="mainHeader">Hi! Welcome to my Website!</h1>
     <p> Here I show off a few things I enjoy in my downtime:</p>
@@ -154,6 +47,9 @@
 
     </table>
     </div>
+
+
+   
 
 
     <!--Youtube link!-->
@@ -207,15 +103,6 @@
     <p style="margin:auto;margin-left:10%">For reference: <a href="https://minecraft.fandom.com/wiki/Villager#Professions" >Link</a></p>
 
 
-    <!--ugly Button area-->
-    <div style="border: solid 2px red; display:inline; width: min-content;">Super Cool button area, don't look at me :)
-    <a role="button" aria- aria-expanded="false">Expandable
-        
-    </a>
-    <div role="button" aria-expanded="false">Button</div>
-
-    <button> Actual button</button>
-    </div>
 
     <!--Cool Deep Rock Galactic Area-->
 <div id="EpicImageAndTitle">
@@ -223,17 +110,38 @@
     <p style="text-shadow: 2px 2px white; background-color: black; margin-top: 0%; font-size: large;">There are 4 Roles to play!</p>
     <!--Main Container-->
     <div id="containerForClasses">
-        <!--Sub Container for Each Class-->
+    <!--Sub Container for Each Class-->
         <div class="classContainer">
-        <button class= "dropDownButton"> Gunner </button>
-        <div class="class">
-        LOOK AT ME
-        </div>
+            <button class= "dropDownButton"> The Gunner </button>
+            <div class="class">
+                <div>Big Machine Gun & Revolver</div>
+                <div>Drop Shield and Ziplines</div>
+            </div>
         </div>
 
-        <div class="class">The Engineer</div>
-        <div class="class">The Scout</div>
-        <div class="class">The Driller</div>
+        <div class="classContainer">
+            <button class= "dropDownButton"> The Engineer </button>
+            <div class="class">
+                <div>Shotgun and Grenade Launcher</div>
+                <div>Auto Turrets and Platforms</div>
+            </div>
+        </div>
+
+        <div class="classContainer">
+            <button class= "dropDownButton"> The Scout </button>
+            <div class="class">
+                <div>Assault Rifle and Sidearm </div>
+                <div>Grappling Hook and Slow Fields</div>
+            </div>
+        </div>
+
+        <div class="classContainer">
+            <button class= "dropDownButton"> The Driller </button>
+            <div class="class">
+                <div> Flamethrower and Sidearm </div>
+                <div> Drills and High Yield Explosive </div>
+            </div>
+        </div>
     </containerForClasses>
 </div>
 </body>
