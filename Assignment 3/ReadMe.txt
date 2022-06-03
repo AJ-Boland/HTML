@@ -1,1 +1,1 @@
-Assignment 1 but hopefully prettier
+Progress continues off of assignment 2, adding more menus and details.
